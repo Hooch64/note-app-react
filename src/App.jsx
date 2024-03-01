@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <h1>Application Notes</h1>
-      <Counter />
+      <Counter notes={notes} />
       <AddNoteForm />
       <Filters />
       <NoteList notes={notes} onRemoveClick={handleRemove} />
